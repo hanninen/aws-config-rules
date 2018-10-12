@@ -1,0 +1,11 @@
+{
+    "Version": "1.0",
+    "Parameters": {
+      "RuleName": "IAM_ROLE_ACCOUNT_TRUST_WHITELISTED",
+      "SourceRuntime": "python3.6",
+      "CodeKey": "IAM_ROLE_ACCOUNT_TRUST_WHITELISTED.zip",
+      "InputParameters": "{\"SSM_ROLE_ARN\": \"arn:aws:iam::5555555555:role/config-ssm-param-store-role\"}",
+      "OptionalParameters": "{}",
+      "SourceEvents": "AWS::IAM::Role"
+    }
+  }
